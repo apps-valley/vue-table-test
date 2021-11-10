@@ -1,0 +1,39 @@
+.search-input {
+  padding-right: 40px;
+}
+
+.sr-only {
+  display: none !important;
+}
+
+td {
+  vertical-align: middle;
+}
+
+.table.b-table > thead > tr > th,
+.table.b-table > tfoot > tr > td {
+  background-image: none !important;
+}
+
+.sort-icon {
+  width: 0.65rem;
+  height: 1rem;
+  margin-left: 0.8rem;
+}
+
+.input-group-prepend > .input-group-text {
+  background-color: white;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+@media (max-width: 767px) {
+  .input-group-prepend {
+    display: none;
+  }
+
+  .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    border-top-left-radius: 3.2px;
+    border-bottom-left-radius: 3.2px;
+  }
+}
